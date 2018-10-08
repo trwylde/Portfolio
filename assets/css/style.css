@@ -1,4 +1,88 @@
 body {
-  background-image: url(../images/arnel-hasanovic-375269-unsplash.jpg);
-  background-size: cover;
+  font-family: 'Arima Madurai', cursive;
 }
+#name {
+  font-weight: 900;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #1a0111;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.sub-head {
+  margin-bottom: 10px;
+}
+
+#project-row {
+  margin-bottom: 0;
+}
+
+.carousel-item {
+  background-size: cover;
+  background-color: rgba(66, 66, 99, 0.7);
+  background-blend-mode: multiply;
+  border-radius: 30px;
+}
+
+.project-title {
+  font-weight: 800;
+  text-shadow: 1px 1px 3px #1a0111;
+}
+
+.material-icons, 
+a {
+  font-size: 50px !important;
+  text-transform: lowercase !important;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px black, 0 0 25px rgb(62, 33, 114), 0 0 5px darkblue;
+}
+
+.contact-link {
+  padding: auto 20px !important;
+}
+
+#crystal-collector {
+  background-image: url("../images/crystal_collector.png");
+}
+
+#camelot-quiz {
+  background-image: url("../images/trivia_js_.png");
+}
+
+#word-guess {
+  background-image: url("../images/word_guess_game.png")
+}
+
+#cinema-savvy {
+  background-image: url("../images/cinema_savvy.png")
+}
+
+p {
+  font-size: 24px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
