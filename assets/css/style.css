@@ -21,9 +21,34 @@ body {
   margin-bottom: 10px;
 }
 
+#about {
+  font-weight: 700;
+}
+
+#greeting {
+  text-shadow: 2px 2px 4px black, 0 0 25px rgb(62, 33, 114), 0 0 5px darkblue;
+}
+
 #project-row {
   margin-bottom: 0;
 }
+
+#portfolio-section {
+  font-weight: 800;
+  text-shadow: 2px 2px 4px black, 0 0 25px rgb(62, 33, 114), 0 0 5px darkblue;
+}
+
+.card-title {
+  text-shadow: 1px 1px 1px rgb(22, 22, 22);
+}
+
+.card-reveal{
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.7) !important;
+}
+div.card-reveal span.card-title{
+  color: #ffffff !important;
+} 
 
 .carousel-item {
   background-size: cover;
@@ -39,10 +64,10 @@ body {
 
 .material-icons, 
 a {
-  font-size: 50px !important;
+  font-size: 40px !important;
   text-transform: lowercase !important;
-  font-weight: 900;
-  text-shadow: 2px 2px 4px black, 0 0 25px rgb(62, 33, 114), 0 0 5px darkblue;
+  font-weight: 800;
+  text-shadow: 1px 1px 2px black, 0 0 8px rgb(62, 33, 114), 0 0 3px darkblue;
 }
 
 .contact-link {
@@ -67,6 +92,13 @@ a {
 
 p {
   font-size: 24px;
+}
+
+.no-shadow {
+  text-shadow: none;
+}
+.sparks {
+  text-shadow: 2px 2px 4px black, 0 0 25px rgb(62, 33, 114), 0 0 5px darkblue;
 }
 
 @media only screen and (max-width : 992px) {
